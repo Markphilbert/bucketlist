@@ -1,0 +1,150 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-family: Gaegu, sans-serif;
+  font-size: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #00000005;
+}
+
+.title {
+  text-align: center;
+  margin-top: 5em;
+}
+
+.title p {
+  font-size: 2.5em;
+  margin-bottom: .8em;
+}
+
+.title h1 {
+  font-size: 4em;
+  margin-bottom: .5em;
+}
+
+#add-list, #edit-list {
+  font-family: Poppins, sans-serif;
+  border: 2px solid #b8b4b4;
+  border-radius: 4px;
+  background-color: #fffebd;
+}
+
+.form, .counterDiv {
+  margin: auto;
+  text-align: center;
+  max-width: 80%;
+}
+
+.counterDiv p {
+  font-size: 2.5em;
+  margin-bottom: .8em;
+}
+
+.addBtn, .editBtn, .deleteBtn {
+  font-family: Poppins, sans-serif;
+  margin-left: .5em;
+  background-color: #27ad6f;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  padding: .3em .7em;
+}
+
+.editBtn {
+  background-color: #2756ad;
+}
+
+.deleteBtn {
+  background-color: #ad2727;
+}
+
+input[type='submit'], .editBtn, .submitBtn, [aria-label] {
+  cursor: pointer;
+}
+
+#edit-box {
+  display: none;
+  max-width: 80%;
+  margin-left: 44.2%;
+}
+
+table {
+  margin: auto;
+  margin-top: 3em;
+}
+
+th {
+  font-size: 3em;
+  margin: 1em 0;
+  text-align: center;
+}
+
+td {
+  font-size: 2em;
+  letter-spacing: -.1em;
+  padding: .2em;
+}
+
+.old {
+  margin: auto;
+}
+
+.old h2 {
+  font-size: 3em;
+  margin: 1em 0;
+}
+
+.old p {
+  font-size: 2.5em;
+  text-decoration: line-through;
+}
+/*# sourceMappingURL=style.css.map */

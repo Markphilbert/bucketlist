@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bucket List CRUD App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="title">
+            <h1>MY SMART BUCKET LIST</h1>
+            <p>#lifegoals</p>
+        </div>
+        <div class="counterDiv">
+            <p id="counter"></p>
+        </div>
+        <div class="form">
+            <form id="form" action="javascript:void(0);" method="POST" onsubmit="app.Add()">
+                <input type="text" id="add-list" placeholder="Add Some Goals">
+                <input type="submit" value="Add" class="addBtn">
+            </form>
+            <div class="old">
+                <h2>2020</h2>
+                <p>Travel More</p>
+                <p>Try New Foods</p>
+                <p>Make New Friends</p>
+                <h2>2021</h2>
+            </div>
+            <table>
+                <tr class="list">
+                    <tbody id="tasks">
+                    </tbody>
+                </tr>
+            </table>
+        </div>
+
+        <div id="edit-box" role="aria-hidden">
+            <form action="javascript:void(0);" method="POST" id="save-edit">
+                <input type="text" id="edit-list" placeholder="Edit Things Here">
+                <input type="submit" value="Save" class="editBtn">
+                <a onclick="CloseInput()" aria-label="Close">&#10006;</a>
+            </form>
+        </div>
+        
+
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>
