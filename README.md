@@ -6,4 +6,5 @@ JavaScript
 SASS/CSS
 HTML
 
-This project is hosted on Netlify
+This project is hosted on Netlify.
+Link: https://bucket-list-crud.netlify.app/
